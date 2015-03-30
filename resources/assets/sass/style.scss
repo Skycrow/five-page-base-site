@@ -1,5 +1,8 @@
 @import "bootstrap";
 
+$break-small: 320px;
+$break-large: 980px;
+
 $btn-font-weight: 300;
 $font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
 
@@ -8,6 +11,46 @@ body, label, .checkbox label {
 }
 
 body {
-	padding-top: 60px;
+	padding-top: 40px;
 	background-color: white !important;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.pad-20 {
+	padding-top: 20px;
+}
+.pad-30 {
+	padding-top: 30px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.navbar-brand  {
+	@media screen and (max-width: $break-small + 300) {
+		display: none;
+	}
+}
+
+.logo {
+	position: absolute;
+	top: 50px;
+	left: 0%;
+	z-index: 99999999;
+	@media screen and (max-width: $break-small +300) {
+	    top: 5px;
+	    img {
+	    	min-height: 40px;
+	    	min-width: 120px;
+	    }
+	}
+	@media screen and (max-width: $break-large) {
+		width: 30%;
+	}
 }

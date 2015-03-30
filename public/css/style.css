@@ -4838,8 +4838,42 @@ body, label, .checkbox label {
   font-weight: 300; }
 
 body {
-  padding-top: 60px;
+  padding-top: 40px;
   background-color: white !important; }
+
+.carousel-inner > .item > img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto; }
+
+.pad-20 {
+  padding-top: 20px; }
+
+.pad-30 {
+  padding-top: 30px; }
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center; }
+
+@media screen and (max-width: 620px) {
+  .navbar-brand {
+    display: none; } }
+
+.logo {
+  position: absolute;
+  top: 50px;
+  left: 0%;
+  z-index: 99999999; }
+  @media screen and (max-width: 620px) {
+    .logo {
+      top: 5px; }
+      .logo img {
+        min-height: 40px;
+        min-width: 120px; } }
+  @media screen and (max-width: 980px) {
+    .logo {
+      width: 30%; } }
 
 
 /*# sourceMappingURL=style.css.map */
