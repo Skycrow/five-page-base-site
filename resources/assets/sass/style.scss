@@ -39,18 +39,59 @@ body {
 }
 
 .logo {
-	position: absolute;
-	top: 50px;
-	left: 0%;
+	position: fixed;
+	top: 51px;
+	right: 0%;
 	z-index: 99999999;
 	@media screen and (max-width: $break-small +300) {
 	    top: 5px;
+	    left: 0%;
 	    img {
 	    	min-height: 40px;
 	    	min-width: 120px;
 	    }
 	}
 	@media screen and (max-width: $break-large) {
-		width: 30%;
+		width: 20%;
 	}
+}
+
+.team img {
+	height: 200px;
+	width: 200px;
+}
+
+// .first-featurette {
+// 	background-color: red;
+// }
+
+#intro { 
+    background: url(/img/_first-slide.jpg) 100% 0 fixed; 
+    background-size: 100%;
+  	background-repeat: no-repeat;
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+#home { 
+    background: url(/img/_second-slide.jpg) 50% 0 fixed; 
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
+}
+#about { 
+    background: url(/img/_third-slide.jpg) 50% 0 fixed; 
+    height: auto;
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0;
+    color: #fff;
 }

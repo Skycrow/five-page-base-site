@@ -16,7 +16,7 @@
 
 	<div class="container">
 
-			@yield('content')
+		@yield('content')
 
 	</div>
    	
@@ -25,10 +25,5 @@
    	
    	@yield('footer')
 
-   	<script>
-		$(document).ready(function() {
-		    $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
-		});
-   	</script>
 </body>
 </html>
