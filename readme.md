@@ -21,3 +21,13 @@ Thank you for considering contributing to the Laravel framework! The contributio
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+### Five Page Base Site
+
+Can be used as a starting point for a Laravel based site. Which has been set up using Bootstrap3 and sass There is a full-width slider and a paralax effect on different sections on the home page, about page with a team members, a modal gallery and a contact page.
+
+Enjoy!
+
+Skycrow
+
+
