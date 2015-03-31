@@ -8,7 +8,7 @@
         <!-- Introduction Row -->
         <div class="row">
             <div class="col-lg-12">
-            <div class="pad-30"></div>
+            
                 <h1 class="page-header">About Us
                     <small>It's Nice to Meet You!</small>
                 </h1>

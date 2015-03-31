@@ -24,16 +24,24 @@
 
 	@include('partials.nav')
 
-	<div class="container">
+	<div class="pad-30"></div>
 
-		@yield('content')
+		<div class="container">
 
-	</div>
-   	
+			@if(Session::has('flash_message'))
+			    <div class="alert alert-info">
+					{{ Session::get('flash_message') }}
+			    </div>
+			@endif
 
-   	<script src="{{ asset('js/app.js') }}"></script>
-   	
-   	@yield('footer')
+				@yield('content')
+
+		</div>
+	   	
+
+	   	<script src="{{ asset('js/app.js') }}"></script>
+	   	
+	   	@yield('footer')
 
 </body>
 </html>
