@@ -4864,7 +4864,7 @@ body {
   position: fixed;
   top: 51px;
   right: 0%;
-  z-index: 99999999; }
+  z-index: 100; }
   @media screen and (max-width: 620px) {
     .logo {
       top: 5px;
@@ -4908,6 +4908,14 @@ body {
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
   padding: 100px 0;
   color: #fff; }
+
+.thumb {
+  margin-bottom: 30px; }
+
+.modal-content {
+  width: 80%;
+  margin: auto;
+  z-index: 150; }
 
 
 /*# sourceMappingURL=style.css.map */
